@@ -15,7 +15,7 @@ const App = () => {
     <div className='bg-background'>
       
       
-      <BrowserRouter>
+      <BrowserRouter basename='/santaclarapalsoccer/'>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/aboutus" element={<Aboutus />} />
